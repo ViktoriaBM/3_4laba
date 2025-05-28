@@ -28,7 +28,7 @@ def solve():
         else:
             return render_template('result.html', roots ="Введите повторно стоимость и первоначальный взнос" )
     else:
-        return render_template('result.html', roots="Ошибка, введите повторно")
+        return render_template('result.html', roots="ааааа")
 
 if __name__ == "__main__":
     app.run(debug=True)
